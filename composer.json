@@ -1,5 +1,5 @@
 {
-  "name": "axiles89/yii2-coordinator",
+  "name": "kllakk/yii2-coordinator",
   "description": "Coordinator for yii2 sharding",
   "keywords": [
     "php",
@@ -9,11 +9,11 @@
     "db"
   ],
   "type": "library",
-  "license": "Public Domain",
+  "license": "MIT",
   "authors": [
     {
-      "name": "Kyshnerev",
-      "email": "DIMKYSH@MAIL.RU"
+      "name": "Sergey",
+      "email": "ma@ctoh.net"
     }
   ],
   "require": {
@@ -23,7 +23,7 @@
   },
   "autoload": {
     "psr-4": {
-      "axiles89\\coordinator\\": "lib/"
+      "kllakk\\coordinator\\": "lib/"
     }
   }
 }
