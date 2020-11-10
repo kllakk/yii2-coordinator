@@ -2,12 +2,12 @@
 /**
  * CoordinatorComponent.php
  *
- * @package axiles89\coordinator
+ * @package kllakk\coordinator
  * @date: 23.03.2016 19:35
  * @author: Kyshnerev Dmitriy <dimkysh@mail.ru>
  */
 
-namespace axiles89\coordinator;
+namespace kllakk\coordinator;
 
 
 use yii\base\Component;
@@ -15,7 +15,7 @@ use yii\base\InvalidConfigException;
 
 /**
  * Class CoordinatorComponent
- * @package axiles89\coordinator
+ * @package kllakk\coordinator
  */
 class CoordinatorComponent extends Component implements ICoordinatorComponent
 {

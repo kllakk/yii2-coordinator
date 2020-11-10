@@ -6,7 +6,7 @@ yii2-coordinator
 Установка
 -------------------
  
-Установка с помощью пакета composer `"axiles89/yii2-coordinator": "*"`
+Установка с помощью пакета composer `"kllakk/yii2-coordinator": "*"`
 
 
 Пример использования
@@ -17,16 +17,16 @@ yii2-coordinator
 ```php
     'components' => [
         'coordinator' => [
-            'class' => 'axiles89\coordinator\CoordinatorComponent',
+            'class' => 'kllakk\coordinator\CoordinatorComponent',
             'component' => [
                 [
-                    'class' => 'axiles89\coordinator\FunctionCoordinator',
+                    'class' => 'kllakk\coordinator\FunctionCoordinator',
                     'function' => function($i) {
                         return $i % 4;
                     }
                 ],
                 [
-                    'class' => 'axiles89\coordinator\RedisCoordinator',
+                    'class' => 'kllakk\coordinator\RedisCoordinator',
                     'hashName' => 'sharding',
                     'connect' => [
                         'class' => 'yii\redis\Connection',
@@ -36,7 +36,7 @@ yii2-coordinator
                     ]
                 ],
                 [
-                    'class' => 'axiles89\coordinator\DbCoordinator',
+                    'class' => 'kllakk\coordinator\DbCoordinator',
                     'table' => [
                         'name' => 'sharding',
                         'columnSearch' => 'bucket_id',

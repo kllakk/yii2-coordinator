@@ -2,12 +2,12 @@
 /**
  * DbCoordinator.php
  *
- * @package axiles89\coordinator
+ * @package kllakk\coordinator
  * @date: 23.03.2016 21:20
  * @author: Kyshnerev Dmitriy <dimkysh@mail.ru>
  */
 
-namespace axiles89\coordinator;
+namespace kllakk\coordinator;
 
 
 use yii\base\Component;
@@ -16,7 +16,7 @@ use yii\db\Connection;
 
 /**
  * Class DbCoordinator
- * @package axiles89\coordinator
+ * @package kllakk\coordinator
  */
 class DbCoordinator extends Component implements ICoordinator
 {

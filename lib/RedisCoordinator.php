@@ -2,12 +2,12 @@
 /**
  * RedisCoordinator.php
  *
- * @package axiles89\coordinator
+ * @package kllakk\coordinator
  * @date: 25.03.2016 19:34
  * @author: Kyshnerev Dmitriy <dimkysh@mail.ru>
  */
 
-namespace axiles89\coordinator;
+namespace kllakk\coordinator;
 
 
 use yii\base\Component;
@@ -16,7 +16,7 @@ use yii\redis\Connection;
 
 /**
  * Class RedisCoordinator
- * @package axiles89\coordinator
+ * @package kllakk\coordinator
  */
 class RedisCoordinator extends Component implements ICoordinator
 {
